@@ -1,0 +1,11 @@
+int isSymbol(char *str, int lineNum);
+char *isSymbolDef(char *str);
+int isStorageCommand(char *str);
+int isJCommand(char *str);
+int isRCommand(char *str);
+int isICommand(char *str);
+int firstWordLen(char * p);
+commandJ handleJCommand(char * str);
+commandR handleRCommand(char * str);
+commandI handleICommand(char * str);
+int getCommandType(char *str);
